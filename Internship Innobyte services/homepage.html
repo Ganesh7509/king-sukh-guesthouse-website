@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Sukh Guesthouse</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" >
+        <div class="navbar">
+            <div class="menu">
+                <h3 class="logo">
+                    Kingsukh Guest House
+                </h3>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="main" id="home">
+            <header>    
+                <div class="overlay">
+                    <div class="inner">
+                        <h2 class="title">Welcome to King Sukh Guest House</h2>
+                        <p>
+                            Experience unparalleled comfort and warmth at our guesthouse, where every stay is designed to feel like home.
+                            Discover a haven of relaxation and hospitality.
+                        </p>
+                        <!-- <button class="btn">
+                            Book Now
+                        </button> -->
+                        <a href="https://wa.me/9007062180?text=Hello%20I%20would%20like%20to%20book%20now" class="btn" target="_blank" rel="noopener noreferrer">
+                            Book Now
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </header>
+            <div class="shadow one"></div>
+            <div class="shadow two"></div>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="#home" style="--i: 0.05s">Home</a></li>
+                <li><a href="#about" style="--i: 0.1s">About</a></li>
+                <li><a href="#services" style="--i: 0.15s">Services</a></li>
+                <li><a href="#rooms" style="--i: 0.2s">Rooms</a></li>
+                <li><a href="#gallary" style="--i: 0.05s">Gallary</a></li>
+                <li><a href="#contact" style="--i: 0.1s">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="alert-ticker">
+        <div class="alert-ticker-wrapper">
+          <div class="alert-item">⚠️ Don't pay money via WhatsApp or other third-party apps. Only make payments through our official website.</div>
+        </div>
+      </div>
+     
+      <section class="booking-container">
+        <div class="booking-content">
+          <div class="booking-form">
+            <button type="button" class="book-btn" id="checkAvailabilityBtn" style="background-color: rgba(0, 0, 255, 0.75);">CHECK AVAILABILITY</button>
+          </div>
+          <div id="bookingFormFields" style="display: none;">
+            <div class="container-fluid form-group">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="ri-calendar-2-fill"></i></span>
+                    <div>
+                      <label for="check-in">CHECK-IN</label>
+                      <input type="date" id="check-in" class="form-control" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="ri-calendar-2-fill"></i></span>
+                    <div>
+                      <label for="check-out">CHECK-OUT</label>
+                      <input type="date" id="check-out" class="form-control" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="ri-user-fill"></i></span>
+                    <div>
+                      <label for="guest">GUESTS</label>
+                      <input type="number" id="guest-no" placeholder="No of Guest" class="form-control" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="ri-hotel-bed-fill"></i></span>
+                    <div>
+                      <label for="room-type">ROOM TYPE</label>
+                      <select id="room-type" class="form-select">
+                        <option value="DOUBLE BED AC">DOUBLE BED AC</option>
+                        <option value="DOUBLE BED NON AC">DOUBLE BED NON AC</option>
+                        <option value="SINGLE BED AC">SINGLE BED AC</option>
+                        <option value="SINGLE BED NON AC">SINGLE BED NON AC</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" id="whatsappButton" class="book-btn">Book</button>
+            </div>
+          </div>
+        </div>
+       
+      </section>
+      
+    
+   
+    <!-- about section -->
+
+  <!-- about section -->
+
+  <section class="about" id="about">
+    <div class="about-container">
+        <div class="about-image">
+            <img src="./assets/out.jpg" alt="about" />
+        </div>
+        <div class="about-content">
+            <p class="section-subheader" style="color: red;">ABOUT US</p>
+            <h2 class="section-header" style="color: rgb(202, 75, 53);">The Best Holidays Start Here!</h2>
+            <p class="about-description" style="color: rgb(14, 15, 15);">
+                Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of Purulia, creating memories that linger long after your stay.
+            </p>
+            <div class="about-links">
+                <a class="address-link" href="https://maps.app.goo.gl/v34A1sYMMBhPSEtF8">Address: Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</a><br />
+                <a href="tel:+919007062180" class="address-link">Contact us: +91 9007062180</a>
+            </div>
+            <div class="about-btn-container">
+                <button class="book-btn">Read More</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- rooms section -->
+<section class="rooms-section" id="rooms">
+    <div class="rooms-container">
+        <p class="rooms-subheader">OUR LIVING ROOMS</p>
+        <h2 class="rooms-header">The Most Memorable Rest Time Starts Here.</h2>
+        <div class="rooms-grid">
+            <div class="room-card">
+                <div class="room-image">
+                    <img src="./assets/small.jpg" alt="Cozy Heaven Room">
+                    <div class="room-icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room-content">
+                    <h4 class="room-title">Cozy Heaven Room</h4>
+                    <p class="room-description">Escape to comfort in our Cozy Heaven Room, a snug retreat designed for intimate relaxation and serene tranquility.</p>
+                    <h5 class="room-price">Starting from: <span>₹ 1000/night</span></h5>
+                </div>
+                <!-- <div class="room-btn-container"><button class="room-book-btn">BOOK NOW</button></div> -->
+                <a style="text-decoration: none;" href="https://wa.me/9007062180?text=I%20would%20like%20to%20book%20the%20Cozy%20Heaven%20Room" class="room-book-btn" target="_blank" rel="noopener noreferrer">
+                    BOOK NOW
+                </a>
+            </div>
+            <div class="room-card">
+                <div class="room-image">
+                    <img src="./assets/large.jpg" alt="Spacious Serenity Suite">
+                    <div class="room-icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room-content">
+                    <h4 class="room-title">Spacious Serenity Suite</h4>
+                    <p class="room-description">Indulge in luxury and ample space in our Spacious Serenity Suite, where tranquility meets roomy elegance.</p>
+                    <h5 class="room-price">Starting from: <span>₹ 1500/night</span></h5>
+                </div>
+                <div class="room-btn-container">
+                    <!-- <button class="room-book-btn">BOOK NOW</button> -->
+                    <a style="text-decoration: none" href="https://wa.me/9007062180?text=I%20would%20like%20to%20book%20the%20Spacious%20Serenity%20Suite" class="room-book-btn" target="_blank" rel="noopener noreferrer">
+                        BOOK NOW
+                    </a>
+                </div>
+            </div>
+            <div class="room-card">
+                <div class="room-image">
+                    <img src="./Assets/service.jpg" alt="New Room Title" height="50px">
+                    <div class="room-icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room-content">
+                    <h4 class="room-title">New Room Title</h4>
+                    <p class="room-description">This room offers a blend of contemporary style and traditional warmth, ensuring a relaxing stay for all guests. </p>
+                    <h5 class="room-price">Starting from: <span>₹2000 Price/night</span></h5>
+                </div>
+                <div class="room-btn-container">
+                    <!-- <button class="room-book-btn">BOOK NOW</button> -->
+                    <a style="text-decoration:none;"href="https://wa.me/9007062180?text=I%20would%20like%20to%20book%20the%20New%20Room%20Title" class="room-book-btn" target="_blank" rel="noopener noreferrer">
+                        BOOK NOW
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+      
+<!-- Services Section -->
+<!-- Services Section -->
+<section class="services-section" id="services">
+    <div class="services-container">
+        <p class="services-subheader">SERVICES</p>
+        <h2 class="services-header">Strive Only For The Best.</h2>
+        <ul class="services-list">
+            <li>
+                <span class="service-icon"><i class="ri-shield-star-line"></i></span>
+                <h3>High Class Security</h3>
+                <p>We provide top-notch security services to ensure your safety.</p>
+            </li>
+            <li>
+                <span class="service-icon"><i class="ri-24-hours-line"></i></span>
+                <h3>24 Hours Room Service</h3>
+                <p>Round-the-clock room service to cater to your every need.</p>
+            </li>
+            <li>
+                <span class="service-icon"><i class="ri-headphone-line"></i></span>
+                <h3>Conference Room</h3>
+                <p>Fully equipped conference rooms for all your business needs.</p>
+            </li>
+            <li>
+                <span class="service-icon"><i class="ri-map-2-line"></i></span>
+                <h3>Tourist Guide Support</h3>
+                <p>Professional guide services to help you explore the best spots.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+    
+    <!-- Banner Section -->
+    <section class="custom-banner" id="banner">
+        <div class="custom-container">
+            <div class="banner-content">
+                <div class="banner-card">
+                    <h4>100+</h4>
+                    <p>Bookings Completed</p>
+                </div>
+                <div class="banner-card">
+                    <h4>150+</h4>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Gallery Section -->
+    <section class="custom-gallery" id="gallary">
+        <div class="gallery-header-container">
+            <p class="gallery-subheader">GALLERY</p>
+            <h2 class="gallery-title">Take a look in our gallery</h2>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-title="Ayodhya" data-imgsrc="./assets/ayodhya.webp">
+                <img src="./assets/services-bg.webp" alt="Ayodhya">
+                <div class="gallery-overlay">
+                    <div class="overlay-text">Click to view</div>
+                </div>
+            </div>
+            <div class="gallery-item" data-title="Baranti" data-imgsrc="./assets/baranti.webp">
+                <img src="./assets/baranti.webp" alt="Baranti">
+                <div class="gallery-overlay">
+                    <div class="overlay-text">Click to view</div>
+                </div>
+            </div>
+            <div class="gallery-item" data-title="Mithon Dam" data-imgsrc="./assets/mithonDam.webp">
+                <img src="./assets/mithonDam.webp" alt="Mithon Dam">
+                <div class="gallery-overlay">
+                    <div class="overlay-text">Click to view</div>
+                </div>
+            </div>
+            <div class="gallery-item" data-title="Ayodhya" data-imgsrc="./assets/ayodhya.webp">
+                <img src="./assets/ayodhya.webp" alt="Ayodhya">
+                <div class="gallery-overlay">
+                    <div class="overlay-text">Click to view</div>
+                </div>
+            </div>
+            <!-- Add more gallery items here -->
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="custom-contact" id="contact">
+        <div class="custom-container">
+            <div class="contact-info">
+                <h1 class="section-subheader">Contact Info</h1>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="icon-email"></i></div>
+                        <div class="contact-text">
+                            <span>Email:</span>
+                            <a href="mailto:kkghosh0099@gmail.com">kkghosh0099@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="icon-phone"></i></div>
+                        <div class="contact-text">
+                            <span>Phone:</span>
+                            <a href="tel:+919007062180">+91 9007062180</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="icon-location"></i></div>
+                        <div class="contact-text">
+                            <span>Office location:</span>
+                            <a href="https://maps.app.goo.gl/v34A1sYMMBhPSEtF8">Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <section class="custom-contact" id="contact">
+                <div class="custom-container">
+                    <div class="contact-info">
+                        <!-- <h1 class="section-subheader">Contact Info</h1> -->
+                        <div class="contact-details">
+                            <!-- Contact details as before -->
+                        </div>
+                       
+                    </div>
+                    <div class="contact-form">
+                        <h2>Send us a message</h2>
+                        <form>
+                            <div class="form-row">
+                                <input type="text" placeholder="First Name" required>
+                            </div>
+                            <div class="form-row">
+                                <input type="text" placeholder="Last Name" required>
+                            </div>
+                            <div class="form-row">
+                                <input type="email" placeholder="E-mail" required>
+                            </div>
+                            <div class="form-row">
+                                <input type="tel" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-row">
+                                <textarea placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="send-message-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+        
+    <!-- Footer -->
+    <footer class="custom-footer">
+        <div class="custom-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">King Sukh <br> GuestHouse</a>
+                </div>
+                <p class="footer-description">
+                    Discover a world of comfort, luxury, and adventure as you explore our curated selection of hotels, making every moment of your getaway truly extraordinary.
+                </p>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>QUICK LINKS</h4>
+                        <ul>
+                            <li><a href="#">Browse Destinations</a></li>
+                            <li><a href="#">Special Offers & Packages</a></li>
+                            <li><a href="#">Room Types & Amenities</a></li>
+                            <li><a href="#">Customer Reviews & Ratings</a></li>
+                            <li><a href="#">Travel Tips & Guides</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>OUR SERVICES</h4>
+                        <ul>
+                            <li><a href="#">Concierge Assistance</a></li>
+                            <li><a href="#">Flexible Booking Options</a></li>
+                            <li><a href="#">Airport Transfers</a></li>
+                            <li><a href="#">Wellness & Recreation</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>CONTACT US</h4>
+                        <ul>
+                            <li><a href="https://maps.app.goo.gl/v34A1sYMMBhPSEtF8">Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</a></li>
+                            <li><a href="mailto:kkghosh0099@gmail.com">kkghosh0099@gmail.com</a></li>
+                            <li><a href="tel:+919007062180">+91 9007062180</a></li>
+                        </ul>
+                        <div class="footer-socials">
+                            <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
+                            <a href="#"><img src="assets/instagram.png" alt="Instagram"></a>
+                            <a href="#"><img src="assets/youtube.png" alt="YouTube"></a>
+                            <a href="#"><img src="assets/twitter.png" alt="Twitter"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bar">
+                Copyright © 2024 Kingsukh Guest House. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
